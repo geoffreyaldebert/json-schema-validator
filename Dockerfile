@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-EXPOSE 4400
+EXPOSE 80
 
 CMD [ "make", "run" ] 
